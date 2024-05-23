@@ -231,7 +231,8 @@ button:focus {
 
 .container-section {
     display: flex;
-
+    justify-content: center;
+align-items: center;
    
 }
 
@@ -244,7 +245,21 @@ button:focus {
     display: flex;
     gap: 24px;
  
+}
+.icons-container svg{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 
+}
+.first-icons{
+    width: 64;
+    height: 64;
 }
 ul.features-section-container-header{
     list-style-type: none;
