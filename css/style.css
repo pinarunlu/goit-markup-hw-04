@@ -250,11 +250,11 @@ align-items: center;
   display: flex;  
   justify-content: center;
   align-items: center;
- 
+
 
 
 }
-.icons-container svg{
+.icons{
 border: 1px solid #8e8f99;
 border-radius: 4px;
 margin-bottom: 8px;
@@ -262,11 +262,7 @@ background-color: #f4f4fd;
 height: 112px;
 }
 
-.first-icons{
-    width: 64px;
-    height: 64px;
 
-}
 ul.features-section-container-header{
     list-style-type: none;
 }
