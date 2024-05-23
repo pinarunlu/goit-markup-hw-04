@@ -5,9 +5,7 @@
     margin: 0;
     padding: 0;
 }
-div::after{
-    content: "";
-}
+
 body {
     font-family: "Roboto", sans-serif ;
 }
@@ -139,8 +137,19 @@ span {
 #header-studio-text{
     position: relative;
     color: #404bbf;
+   
 }
+#header-studio-text::after{
+content: "";
+width: 100%;
+position: absolute;
+left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 
+}
 nav a:hover {
     color: #404bbf;
    
