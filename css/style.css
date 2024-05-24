@@ -430,13 +430,17 @@ ul.features-section-container-header{
     flex-wrap: wrap;
     column-gap: 24px;
         row-gap: 48px;
-    
-    
+      
+}
+.portfolio-card-borders:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-cards-main-container li{
     list-style-type: none;
     border: 1px;
-  
+box-shadow:
     
     
 }
@@ -473,6 +477,7 @@ ul.features-section-container-header{
     border: 1px solid #E7E9FC;
     border-top: none;
     margin-bottom: 8px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-header {
     font-size: 36px;
@@ -499,7 +504,10 @@ ul.features-section-container-header{
 
 }
 
+.portfolio-text:hover{
 
+    transform: translateY(0%);
+}
 
 .footer-main-container{
   
