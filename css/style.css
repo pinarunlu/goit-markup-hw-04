@@ -376,8 +376,35 @@ ul.features-section-container-header{
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.social-media-icons-elements{
+    width: 40px;
+    height: 40px;
 
+}
+li.social-media-icon-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius: 50%;
+}
+.social-media-icon-list:hover{
+    background-color: #404bbf;
+}
+.social-media-icon-list:focus {
+    background-color: #404bbf;
+}
+.social-media-icon-section{
+    color: #f4f4fd;
 
+}
 .portfolio-container{
     padding-top: 120px;
     padding-bottom: 120px;
