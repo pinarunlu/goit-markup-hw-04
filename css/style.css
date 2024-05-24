@@ -385,7 +385,7 @@ ul.features-section-container-header{
     gap: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-media-icons-elements.social-media-icon-list{
+.social-media-icons-elements{
     width: 40px;
     height: 40px;
 
