@@ -599,11 +599,6 @@ align-items: baseline;
 .footer-social-media-icon-list{
     width: 100%;
     height: 100%;
-    
-    
-    
-}
-.footer-connect-icons{
     display: flex;
     align-items: center;
     justify-content: center;
