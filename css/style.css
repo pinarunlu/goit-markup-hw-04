@@ -437,10 +437,7 @@ ul.features-section-container-header{
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-card-border-containers.portfolio-text:hover{
-    transform: translateY(0%);
 
-}
 .portfolio-cards-main-container li{
     list-style-type: none;
     border: 1px;
@@ -526,13 +523,9 @@ ul.features-section-container-header{
     background-color: #4d5ae5;
     
 }
-.portfolio-card-borders:hover .text-in-image{
-    
-    transform: translateY(100%);
-    
+.portfolio-card-borders:hover.text-in-image{
+    transform: translateY(100%); 
 }
-
-
 
 .footer-main-container{
   
