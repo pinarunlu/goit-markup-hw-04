@@ -511,7 +511,7 @@ box-shadow:
 .image-container{
     position: relative;
     overflow: hidden;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 .text-in-image{
     position:absolute;
@@ -522,11 +522,12 @@ box-shadow:
     color:#f4f4fd;
     padding: 40px 32px;
     background-color: #4d5ae5;
-    
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .text-hover:hover{
     transform: translateY(100%);
+
     
 }
 .text-settings{
