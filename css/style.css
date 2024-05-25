@@ -523,11 +523,11 @@ ul.features-section-container-header{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #4d5ae5;
 }
-.portfolio-card-borders:hover .text-in-image{
+.portfolio-card-borders:hover .text-animation{
     transform: translateY(100%);
     
-    
 }
+
 .text-settings{
     height: 100%;
     width: 100%;
