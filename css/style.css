@@ -444,10 +444,9 @@ ul.features-section-container-header{
 .portfolio-cards-main-container li{
     list-style-type: none;
     border: 1px;
-box-shadow:
-    
-    
+      
 }
+
 .portfolio-card-borders:nth-child(3){
   margin-right: 0;
   
@@ -523,9 +522,9 @@ box-shadow:
     padding: 40px 32px;
     background-color: #4d5ae5;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+   
 }
-.text-in-image:hover{
+.image-container p:hover{
     transform: translateY(100%);
 
     
