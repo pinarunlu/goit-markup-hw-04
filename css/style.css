@@ -592,8 +592,8 @@ align-items: baseline;
   
 }
 .footer-icons-settings{
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    width: 40px;
+    height: 40px;
 
 }
 .footer-social-media-icon-list{
@@ -607,16 +607,14 @@ align-items: baseline;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-.footer-icons-elements{
-background-color: #4d5ae5;
+    background-color: #4d5ae5;
     border-radius: 50%;
+
 }
-.footer-icons:hover .footer-icons-settings{
+.footer-social-media-icon-list:hover{
     background-color: #31d0aa;
 }
-.footer-icons:active .footer-icons-settings{
+.footer-social-media-icon-list:active{
     background-color: #31d0aa;
 }
 .footer-social-media-icons-settings{
