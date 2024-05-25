@@ -568,7 +568,9 @@ span.studio-second {
 .footer-container-for-all{
 display: flex;
 align-items: baseline;
-margin-right: 120px;
+}
+.social-media-container{
+    margin-right: 120px;
 }
 
 .social-media-text{
