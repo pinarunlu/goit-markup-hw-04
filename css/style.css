@@ -523,15 +523,15 @@ ul.features-section-container-header{
     background-color: #4d5ae5;
     
 }
-.portfolio-card-borders:hover.text-in-image{
+.portfolio-card-borders:hover .text-in-image{
     transform: translateY(100%); 
 }
 
 .footer-main-container{
-
 margin-bottom: 16px;
 padding-left: 15px;
 padding-right: 15px;
+gap: 16px;
 
 }
 
@@ -539,13 +539,12 @@ padding-right: 15px;
 background-color: #2e2f42;
 padding: 100px 0;
   
-
 }
 .footer-logo {
     font-weight: 700;
     font-size: 18px;
     line-height: 1, 17;
-    letter-spacing: 0, 03em;
+
     text-transform: uppercase;
     color: #4d5ae5;
     line-height: 1.17;
@@ -568,11 +567,11 @@ span.studio-second {
 .footer-container-for-all{
 display: flex;
 align-items: baseline;
+background: #2e2f42;
 
 }
 .social-media-container{
-    margin-right: 120px;
-
+    margin-right: 550px;
 }
 
 .social-media-text{
@@ -582,13 +581,12 @@ align-items: baseline;
     letter-spacing: 0.02em;
     color:#FFFFFF;
     margin-bottom: 16px;
-
+    
 }
 .footer-icons{
     display: flex;
     gap: 16px;
-     margin-right: 120px;
-  
+   
   
 }
 .footer-icons-settings{
@@ -606,10 +604,10 @@ align-items: baseline;
     border-radius: 50%;
 
 }
-.footer-social-media-icon-list:hover{
+.footer-social-media-icon-list:hover {
     background-color: #31d0aa;
 }
-.footer-social-media-icon-list:active{
+.footer-social-media-icon-list:active {
     background-color: #31d0aa;
 }
 .footer-social-media-icons-settings{
